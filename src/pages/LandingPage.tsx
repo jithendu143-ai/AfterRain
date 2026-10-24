@@ -399,7 +399,7 @@ export function LandingPage() {
           </div>
 
           <nav className="landing-nav" aria-label="Landing page navigation">
-            <a href="#scrollytelling">Scrollytelling</a>
+            <a href="#recovery-journey">Recovery Journey</a>
             <a href="#before-after">Restoration Proof</a>
             <a href="#showcase">Field Archives</a>
             <a href="#simulator">Priority Lab</a>
@@ -466,8 +466,9 @@ export function LandingPage() {
                     <span>Enter Command Desk</span>
                     <ArrowRight size={16} />
                   </Link>
-                  <a href="#scrollytelling" className="btn btn-secondary btn-lg">
-                    <span>Explore Kerala Scrollytelling</span>
+                  <a href="#recovery-journey" className="btn btn-secondary btn-lg">
+                    <Compass size={16} />
+                    <span>Explore Recovery Journey</span>
                   </a>
                 </div>
               </div>
@@ -605,11 +606,11 @@ export function LandingPage() {
             3. TRUE INTERACTIVE SCROLLYTELLING EXPERIENCE
             (Dual-column sticky split stage: Scrolling drives chapter images)
             ================================================================= */}
-        <section className="scrollytelling-section" id="scrollytelling">
+        <section className="scrollytelling-section" id="recovery-journey">
           <div className="section-head-center">
             <div className="eyebrow-pill">
               <Sparkles size={12} />
-              <span>KERALA MONSOON RECOVERY SCROLLYTELLING</span>
+              <span>KERALA RECOVERY CHRONICLE</span>
             </div>
             <h2>Chronicles of Hydrological Resilience</h2>
             <p>
